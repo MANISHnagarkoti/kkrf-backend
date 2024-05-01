@@ -18,7 +18,7 @@ db();
 app.use(
   cors({
     // https://blogmeraapp.vercel.app
-    origin: ["https://blogmeraapp.vercel.app", "http://localhost:5173"],
+    origin: ["https://kkrffrontend.netlify.app", "http://localhost:5173"],
     credentials: true,
     exposedHeaders: ["set-cookie"],
   })
